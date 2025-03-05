@@ -1,0 +1,59 @@
+
+.car-container {
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .car-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c1e6d;
+    
+    margin-bottom: 10px;
+  }
+  
+  
+  .car-note {
+    font-size: 14px;
+    color: #ff6600;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Grid Layout */
+  .car-overview {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2-column layout */
+    gap: 12px;
+  }
+  
+  /* Individual Item */
+  .car-item {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  /* Label */
+  .label {
+    font-size: 14px;
+    color: #7a7a7a;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  /* Value */
+  .value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c1e6d;
+  }
+  
